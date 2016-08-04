@@ -1,5 +1,5 @@
 ---
-title       : A Chapter
+title       : Best Chapter
 description : Insert the chapter description here
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
@@ -14,7 +14,6 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Action
 - Animation
 - Comedy
-- Horror
 
 *** =hint
 Have a look at the plot. Which color does the point with the lowest rating have?
