@@ -6,9 +6,8 @@ attachments :
 
 
 
---- type:NormalExercise lang:r xp:100 skills:1 key:cca61c83cf
+--- type:NormalExercise lang:r xp:100 skills:1
 ## More movies
-
 In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
 
 A dataset with a selection of movies, `movie_selection`, is available in the workspace.
@@ -83,7 +82,7 @@ test_error()
 
 success_msg("Good work!")
 ```
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:8894a50618
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:cca61c83cf
 ## A really bad movie
 
 
