@@ -4,10 +4,9 @@ description : Insert the chapter description here
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
-
-
---- type:NormalExercise lang:r xp:100 skills:1 key:3e2f0a553b
+--- type:NormalExercise lang:r xp:100 skills:1 key:cca61c83cf
 ## More movies
+
 In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
 
 A dataset with a selection of movies, `movie_selection`, is available in the workspace.
@@ -82,8 +81,7 @@ test_error()
 
 success_msg("Good work!")
 ```
-
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:70b89ea3a5
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:8894a50618
 ## A really bad movie
 
 
