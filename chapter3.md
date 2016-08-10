@@ -28,7 +28,7 @@ description : Insert the chapter description here
 ```{r}
 success_msg("ok")
 ```
---- type:NormalExercise lang:r xp:50 skills:1 key:cca61c83cf
+--- type:NormalExercise lang:r xp:50 skills:1 key:ad664c38d4
 ## A
 
 
