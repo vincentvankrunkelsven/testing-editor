@@ -36,7 +36,7 @@ ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_point()
 ```{r}
 # SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
 
-msg_bad <- "That is not correct!"
+msg_bad <- "That is not correct!"fdsa
 msg_success <- "Exactly! There seems to be a very bad action movie in the dataset."
 test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
