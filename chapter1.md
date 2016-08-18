@@ -75,8 +75,6 @@ test_function("plot", args = "x")
 test_function("plot", args = "y")
 test_function("plot", args = "col")
 
-test_object("not_here")
-
 test_error()
 
 success_msg("Good work!")

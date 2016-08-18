@@ -26,7 +26,6 @@ description : Insert the chapter description here
 
 *** =sct
 ```{r}
-test_object("nothing")
 success_msg("ok")
 ```
 --- type:NormalExercise lang:r xp:50 skills:1 key:28eed07e35
