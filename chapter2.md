@@ -41,6 +41,7 @@ msg_success <- "Exactly! There seems to be a very bad action movie in the datase
 test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
+
 --- type:NormalExercise lang:r xp:100 skills:1 key:39ce5276a6
 ## More movies
 
