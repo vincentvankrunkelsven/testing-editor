@@ -104,7 +104,7 @@ movies <- read.csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduct
 
 library(ggplot2)
 
-ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_point()
+ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_poinfdsaft()
 ```
 
 *** =sct
