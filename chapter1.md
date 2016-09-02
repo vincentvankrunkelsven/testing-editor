@@ -10,7 +10,6 @@ attachments :
 In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
 Add something
 A dataset with a selection of movies, `movie_selection`, is available in the workspace.
-
 *** =instructions
 - Check out the structure of `movie_selection`.
 - Select movies with a rating of 5 or higher. Assign the result to `good_movies`.
