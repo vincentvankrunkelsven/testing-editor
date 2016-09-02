@@ -12,6 +12,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 
 *** =instructions
 - Adventure
+- Test
 - Action
 - Animation
 - Comedya
