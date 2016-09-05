@@ -1,0 +1,395 @@
+course_title: Testing index editor
+course_description: "Yep, it will be epic!"
+chapters:
+- chapter_title: Mutating joins
+  chapter_description: "Mutating joins add new variables to one data set from
+    another data set, matching observations across rows in the process. This
+    chapter will explain the various ways you can join data sets together and
+    what happens when you do."
+  exercises:
+  -   type    : VideoExercise
+      title   : Welcome to the course!
+      content : "Introduction. Why use dplyr to join data? Many data sets come
+        in multiple tables, in fact that's the easiest way to store large data.
+        dplyr joins faster are faster than base merges and preserve row order.
+        You can also use them with dplyr's built in SQL backend."
+
+  -   type    : MultipleChoiceExercise
+      title   : The advantages of dplyr
+      content : Which is not a reason to use dplyr to join data?
+
+  -   type    : NormalExercise
+      title   : Our data
+      content : Which data set contains the X variable?
+
+  -   type    : VideoExercise
+      title   : Keys
+      content : "To join two tables you need to identify a pair of keys that
+        connect the tables. Keys are variables whose values are shared across
+        tables. There are two kinds of keys, primary and secondary."
+
+  -   type    : MultipleChoiceExercise
+      title   : Primary keys
+      content : Examine the data set, what is the primary key for this data set?
+
+  -   type    : MultipleChoiceExercise
+      title   : Secondary keys
+      content : Which data sets have a secondary key that matches the primary?
+
+  -   type    : MultipleChoiceExercise
+      title   : Multi-variable keys
+      content : "In some cases the unique primary key is the interaction of two
+        or more variables. What would be the primary key of this data set?"
+
+  -   type    : VideoExercise
+      title   : Joins
+      content : Demonstrate left_join() and right_join().
+
+  -   type    : NormalExercise
+      title   : A basic join
+      content : Use pre-code with left_join()
+
+  -   type    : NormalExercise
+      title   : A right join
+      content : Use pre-code with right_join()
+
+  -   type    : MultipleChoiceExercise
+      title   : Right vs. left
+      content : "Can you tell the difference between a right and a left join?
+        How many rows will the result have if you right join the two data sets
+        to the right. Each data set contains one unique observation per row.
+        Pre-code should show the nrow() of two data sets and the nrow() of left
+        joining them."
+
+  -   type    : VideoExercise
+      title   : Variations on joins
+      content : "Explain diagram syntax. Demonstrate the differences between
+        left_join(), right_join(), inner_join(), and full_join()."
+
+  -   type    : NormalExercise
+      title   : Inner joins
+      content : Use pre-code to complete an inner_join()
+
+  -   type    : NormalExercise
+      title   : Full joins
+      content : Use pre-code to complete an full_join()
+
+  -   type    : MultipleChoiceExercise
+      title   : Choose a join
+      content : "Describe a result and have students choose which of the joins
+        will return it."
+
+  -   type    : NormalExercise
+      title   : Use a join
+      content : "Use a dplyr join function to return every row that appears in
+        either data set."
+
+- chapter_title: Filtering joins and set operations
+  chapter_description: "Filtering joins and Set operations combine information
+    from data sets without adding new variables. Filtering joins filter the
+    observations of one data set based on whether or not they occur in a second
+    data set. Set operations use combinations of observations from both data
+    sets to create a new data set."
+  exercises:
+  -   type    : VideoExercise
+      title   : Semi-joins
+      content : "Have you ever tried to filter data based on the combination of
+        many variables. You could try to do this with `filter()`, but it will be
+        much easier with a semi-join."
+
+  -   type    : NormalExercise
+      title   : Semi-join
+      content : "Return just the rows of X that we have Y information for"
+
+  -   type    : NormalExercise
+      title   : Semi-join 2
+      content : Do any of the rows in X match any of the rows in Y?
+
+  -   type    : MultipleChoiceExercise
+      title   : A more precise way to filter?
+      content : "We've attempted to rewrite this semi-join as a filter. Will it
+        return the same results?"
+
+  -   type    : VideoExercise
+      title   : Anti-joins
+      content : "Anti-joins do the opposite of semi-joins, they show which
+        rows do not have matches. Anti-joins are a convenient way to check for
+        errors before they occur."
+
+  -   type    : NormalExercise
+      title   : Anti-join
+      content : Which rows of X do we not have Y information for?
+
+  -   type    : NormalExercise
+      title   : Anti-Join 2
+      content : Were any of the keys of X mis-entered? Use an anti-join to check
+
+  -   type    : NormalExercise
+      title   : Which filtering join?
+      content : "Use a filtering join to determine how many matches exist
+        between X and Y"
+
+  -   type    : VideoExercise
+      title   : Set Operations
+      content : "Set operations include union(), intersect() and setdiff().
+        They let you group observations from two data sets into a new data set."
+
+  -   type    : NormalExercise
+      title   : Union
+      content : How many unique observations are there in these two data sets?
+
+  -   type    : NormalExercise
+      title   : Intersection
+      content : How many observations are shared between these two data sets?
+
+  -   type    : NormalExercise
+      title   : Setdiff
+      content : Which observations are in X but not Y?
+
+  -   type    : NormalExercise
+      title   : Operations
+      content : "Combine union and setdiff operations to return all of the
+        observations that are in one data set, but not the other."
+
+  -   type    : MultipleChoiceExercise
+      title   : Unique values
+      content : "Will the result of this union statement contain fewer rows
+        than the original data set? That would seem paradoxical."
+
+  -   type    : VideoExercise
+      title   : Comparing data sets
+      content : "Use setequal or all.equal to check whether two data sets
+        contain of the same observations."
+
+  -   type    : NormalExercise
+      title   : setequal
+      content : Does the second data set contain any new information?
+
+  -   type    : NormalExercise
+      title   : setequal
+      content : "Write a filtering join that would also check if the second
+        data set contains new information?"
+
+- chapter_title: Assembling data
+  chapter_description: "This chapter will show you how to build data sets from
+    more basic elements: vectors, lists, and individual data sets that do not
+    require a join. dplyr contains a set of functions for assembling data that
+    work faster and more intuitively that base R's functions. The chapter
+    will also look at when dplyr uses, and when it doesn't use, data type
+    coercion."
+  exercises:
+  -   type    : VideoExercise
+      title   : Binds
+      content : "Binds join data sets together in a very simple way; they either
+        add one data set as observations of the other or as variables of the
+        other. Demo of bind_rows() and bind_cols."
+
+  -   type    : NormalExercise
+      title   : Which bind?
+      content : "Bind these data sets into a single data set. Which bind should
+        you use?"
+
+  -   type    : NormalExercise
+      title   : Bind rows
+      content : "Use one command to bind the entire list of data sets into a
+        single data set. Then run the complete code to do something nice."
+
+  -   type    : NormalExercise
+      title   : Bind columns
+      content : Use bind cols
+
+  -   type    : MultipleChoiceExercise
+      title   : Danger
+      content : What is the biggest risk when using bind cols?
+
+  -   type    : VideoExercise
+      title   : Build a better data frame
+      content : "data_frame() is a trimmed down version of data.frame that never
+        coerces inputs (i.e. strings stay as strings!), never adds row.names,
+        never munges column names, only recycles length 1 inputs, evaluates its
+        arguments lazily and in order, and adds tbl_df class to output.
+        frame_data() does the same thing rowwise"
+
+  -   type    : MultipleChoiceExercise
+      title   : data_frame
+      content : Which is not an advantage of data_frame over data.frame?
+
+  -   type    : NormalExercise
+      title   : Make a data frame
+      content : Turn this columnwise data into a data frame
+
+  -   type    : NormalExercise
+      title   : Make another data frame
+      content : Turn this rowwise data into a data frame
+
+  -   type    : NormalExercise
+      title   : Make one last data frame
+      content : Turn this list into a data frame
+
+  -   type    : VideoExercise
+      title   : Working with data types
+      content : "There are several different common data types in R, and
+        sometimes R has to turn one into another, which is known as coercion.
+        Here's how to tell what data types you have and how  (and when) dplyr
+        will coerce them"
+
+  -   type    : MultipleChoiceExercise
+      title   : Atomic data types
+      content : Which best describes R's coercion rules?
+
+  -   type    : NormalExercise
+      title   : Determining type
+      content : "Run the code to see the type of X$x. Then write code and
+        determine the type of Y$x"
+
+  -   type    : NormalExercise
+      title   : Results
+      content : "Join the data sets together by x with a left join. Then
+        determine the type of the output x."
+
+- chapter_title: Advanced joining
+  chapter_description: Now that you have the basics, let's dive deep into the
+    mechanics of joins. This chapter will show you how to spot common join
+    problems; how to join based on multiple, or mis-matched keys; how to join
+    multiple tables; and how you can recreate dplyr's joins with SQL and base R.
+  exercises:
+  -   type    : VideoExercise
+      title   : What can go wrong?
+      content : "Data entry errors can derail your joins. Here are the most 
+        common types and how to search for them: duplicate keys in your data set
+        and missing keys."
+
+  -   type    : MultipleChoiceExercise
+      title   : Spot the key
+      content : What is the primary key for this data set?
+
+  -   type    : MultipleChoiceExercise
+      title   : Unique keys
+      content : "Does the primary key uniquely identify each row? (no, you can
+        add your own primary key with add_rownames())"
+
+  -   type    : NormalExercise
+      title   : Too many keys
+      content : Join the data sets together. What happens to the duplicate keys?
+
+  -   type    : NormalExercise
+      title   : Missing keys
+      content : Which rows contain a missing key variable?
+
+  -   type    : VideoExercise
+      title   : Defining the keys
+      content : "dplyr gives you a lot of control over how you join rows in
+        data sets. You can rely on dplyr to match up rows automatically, select
+        a subset of keys to join on, or specify a join between keys that have
+        different names."
+
+  -   type    : MultipleChoiceExercise
+      title   : Which keys?
+      content : "Which keys will dplyr join on if you set by = \"NULL\" (the
+        default)?"
+
+  -   type    : NormalExercise
+      title   : A subset of keys
+      content : "Join based on just the x variable. What will happen to the
+        duplicate y and z variables?"
+
+  -   type    : NormalExercise
+      title   : Mis-matched key names
+      content : Join based on just the X$x variable and the Y$y variables
+
+  -   type    : NormalExercise
+      title   : More mis-matched names
+      content : Join based on these sets of variables
+
+  -   type    : VideoExercise
+      title   : Joining multiple tables
+      content : "Joins are always defined as a relationship between two data
+        sets. To join more than two data sets together, join them iteratively
+        with the `purrr::Reduce()` function"
+
+  -   type    : MultipleChoiceExercise
+      title   : purrr
+      content : purrr is a package that does what?
+
+  -   type    : NormalExercise
+      title   : Join multiple tables
+      content : Join these n tables
+
+  -   type    : NormalExercise
+      title   : Filter multiple tables
+      content : Which observations are common to all n tables?
+
+  -   type    : VideoExercise
+      title   : Other implementations
+      content : "Dplyr joins are analagous to other joins you may be doing (or
+        may one day want to do) in other languages. Here we look at how to
+        recreate dplyr joins with the base function merge and SQL."
+
+  -   type    : MultipleChoiceExercise
+      title   : SQL
+      content : TRUE or FALSE, you can recreate each type of SQL join with dplyr
+
+- chapter_title: Case study
+  chapter_description: "You know the in's and out's of two-table verbs with
+    dplyr, but your knowledge is untried! Let's cement what you've learned with
+    a real world application."
+  exercises:
+  -   type    : VideoExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : NormalExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : NormalExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : NormalExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : NormalExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : VideoExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : NormalExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : NormalExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : NormalExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : NormalExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : VideoExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : NormalExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : NormalExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : NormalExercise
+      title   : TBD
+      content : TBD
+
+  -   type    : NormalExercise
+      title   : TBD
+      content : TBD
