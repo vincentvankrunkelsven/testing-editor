@@ -8,7 +8,7 @@ attachments :
 ## More moviesssss
 
 In the previous exercise, you saw a dataset about books. In this exercise, we'll have a look at yet another dataset about books!
-Add somethingaaaaaaaaaatesttest
+Add 
 A dataset with a selection of books, `movie_selection`, is available in the workspace.
 *** =instructions
 - Check out the structure of `movie_selection`.
