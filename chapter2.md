@@ -48,7 +48,7 @@ In the previous exercise, you saw a dataset about books. In this exercise, we'll
 
 A dataset with a selection of books, `movie_selection`, is available in the workspace.
 
-*** =instructions
+*** =instructionsfdsfds
 - Check out the structure of `movie_selection`.
 - Select books with a rating of 5 or higher. Assign the result to `good_books`.
 - Use `plot()` to  plot `good_books$Run` on the x-axis, `good_books$Rating` on the y-axis and set `col` to `good_books$Genre`.
