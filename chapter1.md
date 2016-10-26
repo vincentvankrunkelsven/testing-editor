@@ -16,7 +16,7 @@ A dataset with a selection of books, `movie_selection`, is available in the work
 - Select books with a rating of 5 or higher. Assign the result totest `good_books`.
 - Use `plot()` to  plot `good_books$Run` on the x-axis, `good_books$Rating` on the y-axis and set `col` to `good_books$Genre`.
 - Another instruction.
-- Another one.
+- Something else
 
 *** =hint
 - Test
