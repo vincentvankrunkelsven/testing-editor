@@ -14,6 +14,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Adventure
 - Action
 - Animation
+- a
 - Comedy
 - Horror
 - HORRORRRR
