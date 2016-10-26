@@ -7,7 +7,7 @@ This an automatically generated <a href=https://dev.datacamp.com target="_blank"
 Changes you make to this GitHub repository are automatically reflected in the linked DataCamp course. This means that you can enjoy all the advantages of version control, collaboration, issue handling ... of GitHub.
 
 ## Workflow
-
+a
 1. Edit the markdown and yml files in this repository. You can use GitHub's online editor or use <a href=https://git-scm.com/ target="_blank">git</a> locally and push your changes.
 2. Check out your build attempts on the <a href=https://dev.datacamp.com//teach/repositories target="_blank">Teach Dashboard</a>.
 3. Check out your automatically updated <a href=https://dev.datacamp.com/teach/repositories/64836101/go target="_blank">course on DataCamp</a>
