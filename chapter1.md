@@ -70,7 +70,7 @@ plot(good_books$Run, good_books$Rating, col = good_books$Genre)
 test_function("str", args = "object",
               not_called_msg = "You didn't call `str()`!",
               incorrect_msg = "You didn't call `str(object = ...)` with the correct argument, `object`.")
-
+ 
 test_object("good_books")
 
 test_function("plot", args = "x")
