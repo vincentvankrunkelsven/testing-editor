@@ -3,7 +3,7 @@
 <a href=https://dev.datacamp.com//teach/repositories target="_blank"><img src="https://s3.amazonaws.com/assets.datacamp.com/img/github/content-engineering-repos/dashboard_button.png" width="150"></a>
 
 This an automatically generated <a href=https://dev.datacamp.com target="_blank">DataCamp</a> course. You can start from these template files to create your own course.
-
+ 
 Changes you make to this GitHub repository are automatically reflected in the linked DataCamp course. This means that you can enjoy all the advantages of version control, collaboration, issue handling ... of GitHub.
 
 ## Workflow
