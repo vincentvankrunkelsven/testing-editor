@@ -6,7 +6,7 @@ attachments :
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:cca61c83cf
 ## More books
-
+ 
 In the previous exercise, you saw a dataset about books. In this exercise, we'll have a look at yet another dataset about books!
 abcde abcde
 A dataset with a selection of books, `movie_selection`, is available in the workspace.
