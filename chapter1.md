@@ -8,7 +8,7 @@ attachments :
 ## More books
  
 In the previous exercise, you saw a dataset about books. In this exercise, we'll have a look at yet another dataset about books!
-abcde abcde
+
 A dataset with a selection of books, `movie_selection`, is available in the workspace.
 
 *** =instructions
@@ -22,7 +22,6 @@ A dataset with a selection of books, `movie_selection`, is available in the work
 - For the second instruction, you should use `...[movie_selection$Rating >= 5, ]`.
 - For the plot, use `plot(x = ..., y = ..., col = ...)`.
 - what is this?
-- testing
 
 *** =pre_exercise_code
 ```{r}
