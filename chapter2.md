@@ -5,7 +5,7 @@ attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:cca61c83cf
-## A really bad movie
+## A really good movie
 
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movie has the worst rating assigned to it?
@@ -14,11 +14,6 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Adventure
 - Action
 - Animation
-- a
-- b
-- Comedy
-- Horror
-- HORRORRRR
 
 *** =hint
 Have a look at the plot. Which color does the point with the lowest rating have?
