@@ -10,6 +10,7 @@ attachments :
 In the previous exercise, you saw a dataset about books. In this exercise, we'll have a look at yet another dataset about books!
 abcde abcde
 A dataset with a selection of books, `movie_selection`, is available in the workspace.
+
 *** =instructions
 - Check out the structure of `movie_selection`.
 - Select books with a rating of 5 or higher. Assign the result totest `good_books`.
