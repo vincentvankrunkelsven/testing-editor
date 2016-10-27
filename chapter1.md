@@ -5,7 +5,7 @@ attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:cca61c83cf
-## Out of sync books 
+## Out of sync 
 
 In the previous exercise, you saw a dataset about books. In this exercise, we'll have a look at yet another dataset about books!a
 
