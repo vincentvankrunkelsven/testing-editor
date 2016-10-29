@@ -23,6 +23,7 @@ A dataset with a selection of books, `movie_selection`, is available in the work
 - For the second instruction, you should use `...[movie_selection$Rating >= 5, ]`.
 - For the plot, use `plot(x = ..., y = ..., col = ...)`.
 - what is this?
+- test
 
 *** =pre_exercise_code
 ```{r}
