@@ -39,7 +39,6 @@ msg_success <- "Exactly! There seems to be a very bad action movie in the datase
 test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
-
 --- type:NormalExercise lang:r xp:100 skills:1 key:39ce5276a6
 ## More books
 
@@ -47,7 +46,7 @@ In the previous exercise, you saw a dataset about books. In this exercise, we'll
 
 A dataset with a selection of books, `movie_selection`, is available in the workspace.
 
-*** =instructionsfdsfds
+*** =instructions
 - Check out the structure of `movie_selection`.
 - Select books with a rating of 5 or higher. Assign the result to `good_books`.
 - Use `plot()` to  plot `good_books$Run` on the x-axis, `good_books$Rating` on the y-axis and set `col` to `good_books$Genre`.
