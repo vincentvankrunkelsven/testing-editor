@@ -4,8 +4,8 @@ description : Insert the chapter description here
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:cca61c83cf
-## <code> Whaat
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:<code>
+## First exercise
 
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movie has the worst rating assigned to it?
@@ -39,8 +39,8 @@ msg_success <- "Exactly! There seems to be a very bad action movie in the datase
 test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:39ce5276a6
-## <code> Whaat
+--- type:NormalExercise lang:r xp:100 skills:1 key:<code>
+## Second exercise
 
 In the previous exercise, you saw a dataset about books. In this exercise, we'll have a look at yet another dataset about books!
 
