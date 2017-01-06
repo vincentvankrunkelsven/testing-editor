@@ -76,7 +76,7 @@ This is a **joke** which references the movie _Inception_ {{1}}
 ## Output
 
 *** =part1
-```{r}
+```{r} 
 # View the structure of your data
 > str(hsb2)
 'data.frame': 200 obs. of  11 variables:
@@ -105,9 +105,9 @@ This is a **joke** which references the movie _Inception_ {{1}}
 | ... | ...     | ...   |  ... | ...   |
 | 137 | female  | white |  ... | 61    |
 
-This is the best _table_ ever ~~not~~ {{1}}
+This is the best _table_ ever **~~not~~** {{1}}
 
---- type:FullSlide key:c8df272b9a
+--- type:FullSlide key:c8df272b9a 
 ## Formulas
 
 *** =part1
@@ -116,3 +116,19 @@ The **formula** for this is $n \rightarrow \infty$
 $$\frac{1}{n}\sum\_{i=1}^{n} x\_{i}^{2} + y\_{i}^{2}$$ {{2}}
 
 ### Get ready for the formula
+
+--- type: TwoRows key:52aa2eae47
+## Row slide
+
+*** =part1
+First time {{1}}
+
+__This is something very cool__ {{2}}
+
+*** =part2
+We see a row slide {{2}}
+
+```
+# Show this first
+for (i in 1..10) { print('cool') }
+``` {{1}}
