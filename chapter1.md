@@ -85,31 +85,9 @@ success_msg("Good work!")
 
 ```
 
---- type:NormalExercise lang:python xp:100 skills:2 key:658d5f1c45
-## <<<New Exercise>>>
+--- type:VideoExercise lang:python xp:50 skills:2 key:7c1936236c
+## Cool slides 
 
 
-
-*** =instructions
-
-*** =hint
-
-*** =pre_exercise_code
-```{python}
-
-```
-
-*** =sample_code
-```{python}
-
-```
-
-*** =solution
-```{python}
-
-```
-
-*** =sct
-```{python}
-
-```
+*** =slides
+test2.md
