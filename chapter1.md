@@ -4,7 +4,7 @@ description : Insert the chapter description here
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
---- type:NormalExercise lang:r xp:100 skills:1 key:abc
+--- type:NormalExercise lang:r xp:100 skills:1 key:bfcfbd77bb
 ## Good movies
 
 In the previous exercise, you saw a dataset about books. In this exercise, we'll have a look at yet another dataset about books!aa
@@ -82,5 +82,34 @@ test_function("plot", args = "col")
 test_error()
  
 success_msg("Good work!")
+
+```
+
+--- type:NormalExercise lang:python xp:100 skills:2 key:658d5f1c45
+## <<<New Exercise>>>
+
+
+
+*** =instructions
+
+*** =hint
+
+*** =pre_exercise_code
+```{python}
+
+```
+
+*** =sample_code
+```{python}
+
+```
+
+*** =solution
+```{python}
+
+```
+
+*** =sct
+```{python}
 
 ```

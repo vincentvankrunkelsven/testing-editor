@@ -1,5 +1,9 @@
 ---
-title: Vincent's SlideDeck
+title: R course
+video_link: https://videos.datacamp.com/raw/1796_intro-stats-eda/v1/ch0_0.mp4
+
+--- type:TitleSlide key:839ed30829
+## Cool stuff
 
 --- type:TwoColumns key:2383914859
 ## Testing stuff
@@ -132,3 +136,6 @@ We see a row slide {{2}}
 # Show this first
 for (i in 1..10) { print('cool') }
 ``` {{1}}
+
+--- type:FinalSlide key:97866310d6
+# Let's practice

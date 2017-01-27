@@ -4,4 +4,5 @@ instructors      :
 description      : This is an automatically generated demo course which will help you on your way to create an awesome DataCamp course. blablabla
 university       : DataCamp
 difficulty_level : 2s
-time_needed      : 2 hours of timesa
+time_needed      : "2 hours of \'timesa\'"
+programming_language: python
