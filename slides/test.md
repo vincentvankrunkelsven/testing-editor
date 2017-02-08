@@ -1,6 +1,6 @@
 ---
 title: R course
-video_link: https://videos.datacamp.com/raw/1796_intro-stats-eda/v1/ch0_0.mp4
+video_link: https://videos.datacamp.com/transcoded/1796_intro-stats-eda/v1/hls-ch0_0.master.m3u8
 
 --- type:TitleSlide key:839ed30829
 ## Cool stuff
