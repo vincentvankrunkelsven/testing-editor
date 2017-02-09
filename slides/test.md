@@ -126,6 +126,8 @@ The **formula** for this is $n \rightarrow \infty$
 
 $$\frac{1}{n}\sum\_{i=1}^{n} x\_{i}^{2} + y\_{i}^{2}$$ {{2}}
 
+$$\begin{matrix} a & b & c \\\ d & e & f \\\ g & h & i \end{matrix}$$ {{3}}
+
 ### Get ready for the formula
 
 --- type: TwoRows key:52aa2eae47
