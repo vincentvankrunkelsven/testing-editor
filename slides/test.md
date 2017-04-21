@@ -12,7 +12,7 @@ name: Andrew Bray
 title: Assistant professor Statistics, Reed College
 
 --- type:TwoColumns
-## Testing stuff
+## Testing some stuff out
 
 
 *** =part1
