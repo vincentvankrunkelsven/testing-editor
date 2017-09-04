@@ -4,14 +4,14 @@ video_link: >-
   https://videos.datacamp.com/transcoded/1796_intro-stats-eda/v1/hls-ch0_0.master.m3u8
 key: 9768ba199c69d74ed4428ad9a98d6007
 
---- type:TitleSlide
+--- type:TitleSlide key:cb5db5ceff
 ## Cool stuff
 
 *** =lower_third
 name: Andrew Bray
 title: Assistant professor Statistics, Reed College
 
---- type:TwoColumns
+--- type:TwoColumns key:b4ce90e4fb
 ## Testing some stuff out
 
 
